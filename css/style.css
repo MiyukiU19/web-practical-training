@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* メイン画像をグリッドの配置にする（ここから） */
+.product-list {
+    display: grid;
+    gap: 20px;
+    list-style: none;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.product-list img {
+    width: 100%;
+    max-width: 1360px;
+    height: 100;
+    object-fit: cover;
+}
+
+.product-list a {
+    color: black;
+    text-decoration: none;
+}
+/* メイン画像をグリッドの配置にする（ここまで） */
+
+
+/* wrapperで表示サイズを調整する （ここから）*/
+.wrapper {
+    width: 100vw;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 40px;
+    object-fit: cover;
+}
+/* wrapperで表示サイズを調整する（ここまで） */
+
+
+/* headerのデザイン （ここから）*/
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+/* headerのデザイン （ここまで）*/
+
+
+/* footerのデザイン （ここから）*/
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 20px 0;
+}
+/* footerのデザイン （ここまで）*/
