@@ -1,6 +1,28 @@
 @charset "UTF-8";
 
-/* メイン画像をグリッドの配置にする（ここから） */
+/* 全体の編集 （ここから）*/
+/* wrapperで表示サイズを調整する */
+.wrapper {
+    width: 100vw;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 0 40px;
+    object-fit: cover;
+}
+/* 全体の編集 （ここまで）*/
+
+
+/* headerの編集 （ここから）*/
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+/* headerの編集 （ここまで）*/
+
+
+/* メインの編集（ここから） */
+/* アイテムの構成 */
 .product-list {
     display: grid;
     gap: 20px;
@@ -20,46 +42,35 @@
     text-decoration: none;
     font-size: 95%;
 }
-/* メイン画像をグリッドの配置にする（ここまで） */
 
-
-/* wrapperで表示サイズを調整する （ここから）*/
-.wrapper {
-    width: 100vw;
-    max-width: 1360px;
-    margin: 0 auto;
-    padding: 0 40px;
-    object-fit: cover;
-}
-/* wrapperで表示サイズを調整する（ここまで） */
-
-
-/* headerのデザイン （ここから）*/
-#header {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-}
-/* headerのデザイン （ここまで）*/
-
-
-/* footerのデザイン （ここから）*/
-.menu {
-    display: flex;
-    gap: 40px;
-    list-style: none;
-    margin: 20px 0;
-}
-/* footerのデザイン （ここまで）*/
-
-/* View Moreを中央に表示（ここから） */
+/* View Moreを中央に表示 */
 .link-text {
     text-align: center;
     margin-top: 40px;
     color: black;
     text-decoration: none;
 }
-/* View Moreを中央に表示（ここまで） */
+/* メインの編集（ここまで） */
+
+
+/* footerの編集 （ここから）*/
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 20px 0;
+}
+/* footerの編集 （ここまで）*/
+
+
+
+/* アイテムの構成を二列にする（ここから） */
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+/* アイテムの構成を二列にする（ここまで） */
 
 
 /* レスポンシブ対応　スマホ画面（ここから） */
