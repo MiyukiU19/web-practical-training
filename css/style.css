@@ -18,6 +18,7 @@
 .product-list a {
     color: black;
     text-decoration: none;
+    font-size: 95%;
 }
 /* メイン画像をグリッドの配置にする（ここまで） */
 
@@ -50,3 +51,17 @@
     margin: 20px 0;
 }
 /* footerのデザイン （ここまで）*/
+
+/* View Moreを中央に表示（ここから） */
+.link-text {
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+    text-decoration: none;
+}
+/* View Moreを中央に表示（ここまで） */
+
+
+/* レスポンシブ対応　スマホ画面（ここから） */
+
+/* レスポンシブ対応　スマホ画面（ここまで） */
