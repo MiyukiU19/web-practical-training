@@ -75,7 +75,6 @@
 } */
 
     /* 先生のやつ↓ */
-
     .page-title{
         font-size: 20px;
         margin-bottom: 10px;
@@ -134,8 +133,20 @@
     .product-list a {
         font-size: 75%;
     }
+    .product-list p {
+        line-height: 1.4;
+        margin-top: 6px;
+    }
     .link-text, .menu {
         font-size: 85%;
     }
+    
+    /* アイテムページ */
+        .item {
+            flex-direction: column;
+        }
+        .item .item-img, .item .item-text {
+            width: 100%;
+        }
 }
 /* レスポンシブ対応　スマホ画面（ここまで） */
