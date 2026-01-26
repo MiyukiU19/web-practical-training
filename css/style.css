@@ -8,6 +8,7 @@
     margin: 0 auto;
     padding: 0 40px;
     object-fit: cover;
+    margin-bottom: 30px;
 }
 /* == 全体の編集 （ここまで）== */
 
@@ -54,7 +55,7 @@
 
 /* --itemのデザイン（ここから）-- */
 /* アイテムの構成を二列にする */
-.item {
+/* .item {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
@@ -62,16 +63,48 @@
 
 .item-text table{
     padding-top: 80px;
-}
+} */
 
 /* 画像や文字の調整 */
-.page-title {
+/* .page-title {
     font-size: 20px;
     margin: 25px 0 10px 0;
 }
 .item-img img{
     width:92%;
-}
+} */
+
+    /* 先生のやつ↓ */
+
+    .page-title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .item {
+        display: flex;
+        max-width: 800px;
+        justify-content: space-between;
+    }
+    .item .item-img {
+        width: 42%;
+    }
+    .item .item-text {
+        width: 50%;
+    }
+    .item .item-img img {
+        width: 100%;
+    }
+    .item .item-text p{
+        margin-bottom: 20px;
+    }
+    .item table th {
+        text-align: left;
+        font-weight: normal;
+    }
+    .item table td {
+        padding-left: 1em;
+    }
+    /* 先生のやつ↑ */
 
 
 /* itemのデザイン（ここまで） */
