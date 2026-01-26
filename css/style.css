@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* 全体の編集 （ここから）*/
+/* == 全体の編集 （ここから）== */
 /* wrapperで表示サイズを調整する */
 .wrapper {
     width: 100vw;
@@ -9,19 +9,19 @@
     padding: 0 40px;
     object-fit: cover;
 }
-/* 全体の編集 （ここまで）*/
+/* == 全体の編集 （ここまで）== */
 
 
-/* headerの編集 （ここから）*/
+/* == headerの編集 （ここから）== */
 #header {
     display: flex;
     justify-content: space-between;
     margin: 20px 0;
 }
-/* headerの編集 （ここまで）*/
+/* ==　headerのheaderの編集 （ここまで）== */
 
 
-/* メインの編集（ここから） */
+/* == メインの編集（ここから）== */
 /* アイテムの構成 */
 .product-list {
     display: grid;
@@ -49,28 +49,45 @@
     margin-top: 40px;
     color: black;
     text-decoration: none;
+    margin: 30px 0;
 }
-/* メインの編集（ここまで） */
+
+/* --itemのデザイン（ここから）-- */
+/* アイテムの構成を二列にする */
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.item-text table{
+    padding-top: 80px;
+}
+
+/* 画像や文字の調整 */
+.page-title {
+    font-size: 20px;
+    margin: 25px 0 10px 0;
+}
+.item-img img{
+    width:92%;
+}
 
 
-/* footerの編集 （ここから）*/
+/* itemのデザイン（ここまで） */
+
+/* == メインの編集（ここまで）== */
+
+
+/* == footerの編集 （ここから）== */
 .menu {
     display: flex;
     gap: 40px;
     list-style: none;
     margin: 20px 0;
 }
-/* footerの編集 （ここまで）*/
+/* == footerの編集 （ここまで）== */
 
-
-
-/* アイテムの構成を二列にする（ここから） */
-.item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-}
-/* アイテムの構成を二列にする（ここまで） */
 
 
 /* レスポンシブ対応　スマホ画面（ここから） */
