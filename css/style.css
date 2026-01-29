@@ -50,7 +50,9 @@
     margin-top: 40px;
     color: black;
     text-decoration: none;
-    margin: 30px 0;
+}
+.link-text p {
+    margin-top: 40px;
 }
 
 /* --itemのデザイン（ここから）-- */
@@ -104,7 +106,6 @@
         padding-left: 1em;
     }
     /* 先生のやつ↑ */
-
 
 /* itemのデザイン（ここまで） */
 
