@@ -205,13 +205,31 @@
     .item .item-img, .item .item-text {
         width: 100%;
     }
+
     /* companyページ */
     #company .info  th,
     #company .info td{
-        font-size: 11px;
-        padding: 20px 20px 20px 0;
+        display: block;
+        width: 100%;
+        border-bottom: none;
+        font-size: 14px;
+        padding: 5px 0;
     }
+    #company .info tr {
+        border-bottom:1px solid #dcdbdb;
+        display: block;
+        padding: 10px 0;
 
+    }
+    #company .info tr:last-child {
+        border-bottom: none; 
+    }
+    .info th, .info td {
+        text-align: left;
+    }
+    .info td{
+        margin-left: 0;
+    }
     .map iframe {
         width: 300px;
         height: 280px;
