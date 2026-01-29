@@ -109,6 +109,59 @@
 
 /* itemのデザイン（ここまで） */
 
+/* companyのデザイン（ここから） */
+.page-title {
+    padding: 20px 0;
+    font-size: 15px;
+    font-weight: normal;
+}
+#company {
+    max-width: 600px;
+}
+#company .info {
+    width: 100%;
+    margin-bottom: 30px;
+}
+#company .info  th,
+#company .info td{
+    font-weight: normal;
+    font-size: 14px;
+    padding: 20px 50px 20px 0;
+}
+.info {
+    /* テーブルの隙間を実践にする */
+    border-collapse: collapse;
+}
+.info tr {
+    border-bottom: 1px solid #dcdbdb;
+}
+/* 最後の行の線を消す */
+.info tr:last-child {
+    border-bottom: none; 
+}
+.info td{
+    padding: 15px 0;
+    margin-left: 2rem;
+}
+.info th{
+    text-align: left;
+    
+}
+.info tr:last-child th {
+    vertical-align: top; 
+}
+
+/* map */
+.map iframe {
+    width: 600px;
+    height: 300px;
+    margin-bottom: 50px;
+    filter: grayscale(1);
+}
+
+/* companyのデザイン（ここまで） */
+
+
 /* == メインの編集（ここまで）== */
 
 
@@ -141,13 +194,27 @@
     .link-text, .menu {
         font-size: 85%;
     }
+    .menu li {
+        font-size: 12px;
+    }
     
     /* アイテムページ */
-        .item {
-            flex-direction: column;
-        }
-        .item .item-img, .item .item-text {
-            width: 100%;
-        }
+    .item {
+        flex-direction: column;
+    }
+    .item .item-img, .item .item-text {
+        width: 100%;
+    }
+    /* companyページ */
+    #company .info  th,
+    #company .info td{
+        font-size: 11px;
+        padding: 20px 20px 20px 0;
+    }
+
+    .map iframe {
+        width: 300px;
+        height: 280px;
+    }
 }
 /* レスポンシブ対応　スマホ画面（ここまで） */
