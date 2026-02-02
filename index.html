@@ -11,15 +11,35 @@
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link rel="stylesheet" href="css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/main.js" defer></script>
     </head>
     <body>
         <header id="header" class="wrapper">
             <h1 class="site-title">
                 <a href="index.html"><img src="img/logo.svg" alt="Furniture Design"></a>
             </h1>
-    <nav>
-    </nav>
+            <!-- ハンバーガーメニュー -->
+            <nav>
+                <button type="button" id="menu-open" class="btn-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div id="menu-panel">
+                    <button type="button" id="menu-close" class="btn-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <!-- ナビゲーションの中身 -->
+                    <ul class="menu-list">
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="products.html">products</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="company.html">contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </header>
         <main>
             <div id="top" class="wrapper">
@@ -139,9 +159,6 @@
                 </ul>
                 <a class="link-text" href="products.html">
                     <p>View More</p>
-                </a>
-                <a class="link-text" href="company.html">
-                    <p>company</p>
                 </a>
             </div>
         </main>
